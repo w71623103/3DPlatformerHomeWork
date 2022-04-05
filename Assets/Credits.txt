@@ -1,3 +1,4 @@
 Models From:
 https://assetstore.unity.com/packages/3d/props/exterior/low-poly-brick-houses-131899
 https://assetstore.unity.com/packages/3d/prototyping-pack-free-94277
+https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
