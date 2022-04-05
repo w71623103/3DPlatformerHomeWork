@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private GameObject gm;
     [SerializeField] private GameObject target;
     [SerializeField] private float range = 50f;
     [SerializeField] private Vector3 distance;
@@ -44,5 +45,10 @@ public class Enemy : MonoBehaviour
                 freeze = false;
             }
         }
+    }
+
+    private void OnDestroy()
+    {
+        gm.GetComponent<GameManager>().enemyCount -= 1;
     }
 }

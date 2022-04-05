@@ -21,7 +21,7 @@ public class DeathZone : MonoBehaviour
         switch(collision.gameObject.tag)
         {
             case "Player":
-                Debug.Log("ToStartScene");
+                SceneManager.LoadScene("startScene");
                 break;
             case "Enemy":
                 Destroy(collision.gameObject);
